@@ -5,7 +5,6 @@
 		<title>Forms</title>
 	</head>
 	<body>
-		<form action="">
 			<!--------------------Section 1------------>
 			<!--in order to create a form we use the "form" tag
 				input tag is for getting input from the user
@@ -22,8 +21,23 @@
 				<input type="Submit" value="Click Me">
 			</form>
 
+			<!--------------------Section 2------------>
+			<h1>Section 2</h1>
+
+			<form action="https://google.com" method="get">
+				<p>Enter text and take me to google</p>
+				<input type="text" name="useremail" id="">
+				<input type="submit" value="Submit">
+			</form>
+
+			<form>
+				<label for="userinput">Enter Text:</label>
+				<input type="text" id="userinput">
+				<input type="text" placeholder="Enter Text">
+				<input type="text" placeholder="required" required>
+				<input type="Submit" required>
+			</form>
 
 
-		</form>
 	</body>
 </html>
